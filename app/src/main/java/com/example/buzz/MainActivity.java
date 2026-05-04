@@ -69,16 +69,29 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("NotifyDataSetChanged")
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+
                 list.clear();
+
+                String currentUserId = auth.getUid();
+
                 for (DataSnapshot snapshot1 : snapshot.getChildren()) {
+
+                    String userId = snapshot1.getKey();
+
+                    // Current logged-in user ko chat list me add mat karo
+                    if (userId != null && userId.equals(currentUserId)) {
+                        continue;
+                    }
+
                     users users = snapshot1.getValue(com.example.buzz.Model.users.class);
-                    users.setUserId(snapshot1.getKey());
-                    list.add(users);
+
+                    if (users != null) {
+                        users.setUserId(userId);
+                        list.add(users);
+                    }
                 }
 
                 adapter.notifyDataSetChanged();
-
-
             }
 
             @Override
@@ -86,7 +99,6 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
 
 
 

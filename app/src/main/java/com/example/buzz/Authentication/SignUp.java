@@ -98,7 +98,7 @@ public class SignUp extends AppCompatActivity {
                 return;
             }
 
-            if (nameInput.length() > 10) {
+            if (nameInput.length() > 20) {
                 Toast.makeText(SignUp.this, "Name cannot exceed 10 characters", Toast.LENGTH_SHORT).show();
                 return;
             }

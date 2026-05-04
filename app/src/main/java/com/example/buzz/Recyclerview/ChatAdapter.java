@@ -118,8 +118,9 @@ public class ChatAdapter extends  RecyclerView.Adapter
         public RecieverViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            message = itemView.findViewById(R.id.ReciverrMessage);
-            date1 = itemView.findViewById(R.id.reciver_message_TIme);
+            message = itemView.findViewById(R.id.receiverMessage);
+            date1 = itemView.findViewById(R.id.receiverMessageTime
+            );
         }
     }
 }
