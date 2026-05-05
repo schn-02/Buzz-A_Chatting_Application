@@ -12,7 +12,7 @@ Buzz is a real-time Android chat application built with Java, Firebase, and XML,
   </tr>
 
   <tr>
-    <td><img src="https://github.com/schn-02/Buzz-A_Chatting_Application/blob/75e0a8aa316be4c21861cc1cf71e507260ccfe26/signin.jpeg" width="170"/></td>
+    <td><img src="https://github.com/schn-02/Buzz-A_Chatting_Application/blob/main/Screenshot%202026-05-05%20154255.png" width="170"/></td>
     <td><img src="https://github.com/schn-02/Buzz-A_Chatting_Application/blob/ff901437f04a378eae0541ff4811cb236e1ac527/srkchats.jpeg" width="170"/></td>
     <td><img src="https://github.com/schn-02/Buzz-A_Chatting_Application/blob/270ff282fffc49b8463b2f20b7e194960dd90c63/tigerchats.jpeg" width="170"/></td>
     <td><img src="https://github.com/schn-02/Buzz-A_Chatting_Application/blob/8aac459fbe8825feb415439ac8cce6fa164e1248/logout.jpeg" width="170"/></td>
